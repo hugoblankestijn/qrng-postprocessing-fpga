@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+*.npy
+*.bin
+
+# Vivado
+*.cache/
+*.runs/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.gen/
+*.srcs/
+.Xil/
+*.jou
+*.log
+*.str
+*.xpr
+*.bit
+*.xsa
+*.hwh
+
+# Simulation / build
+build/
+*.vvp
+*.vcd
+fpga/vectors/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+
+# Secrets / local
+.env
+.env.*
+
+# Results: only small synthetic examples are tracked
+results/*
+!results/.gitkeep
+!results/synthetic_*
+
+# Non-public material (reference papers, slides, reports, lab data)
+QRNG_*.pdf
+QRNG_chip_test_plan.pptx
+BEP_KickOff_*.pdf
+Postprocessing_for_integrated_QRNG.docx
+*.pptx
+*.docx
+data/

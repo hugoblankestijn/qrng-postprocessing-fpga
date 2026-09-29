@@ -1,0 +1,3 @@
+# PROVISIONAL: verify against `import` statements in qrng_pp/, scripts/, tests/
+numpy
+pytest
